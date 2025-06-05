@@ -35,7 +35,7 @@ public class Class12String {
         //convertimos el texto a Mayusculas
         texto.toUpperCase();
         //si deseamos modificar el texto, debemos igualarlo
-        texto = texto.toUpperCase()
+        texto = texto.toUpperCase();
         System.out.println(texto);
 
 
