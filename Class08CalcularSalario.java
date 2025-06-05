@@ -25,13 +25,13 @@ public class Class08CalcularSalario {
         }
 
         double extra = 1.50;
-        int op1 = horas -36;
-        int op2 = 36 * importe;
-        double tx = op1 * (importe + extra);
-        double total = tx +op2;
+        int horasExtra = horas -36;
+        int horasNormal = 36 * importe;
+        double tx = horasExtra * (importe + extra);
+        double total = tx + horasNormal;
         
         System.out.println("Salario total : " + total);
         System.out.println("Horas trabajadas: " + horas);
-        System.out.println("Horas extras " + op1);
+        System.out.println("Horas extras " + horasExtra);
     }
 }
