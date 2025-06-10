@@ -24,6 +24,7 @@ public class Class20ArraysNumeros {
 
         for (int i = 0; i < numeros.length; i++) {
             int  num = numeros[i];
+
             suma+= num;
             mayor = Math.max(num,mayor);
             menor= Math.min(num,menor);
@@ -32,9 +33,9 @@ public class Class20ArraysNumeros {
         
         media = suma/numeros.length;   
 
-        System.out.println("El numero minimo es" + menor);
+        System.out.println("El numero minimo es " + menor);
         System.out.println("El numero maximo es " + mayor);
         System.out.println("La suma es " + suma);
-        System.out.println("La media es" + media);
+        System.out.println("La media es  "  + media);
     }
 }
