@@ -5,8 +5,9 @@ public class Class27MetodosNarcisita {
         //creo un arraylis de numeros para posteriormente guardarlo
         ArrayList<Integer>listaNumeros = new ArrayList<Integer>();
       
+        //con un for recorro los numeros solicitados
         for (int i = 1; i < 20000; i++) {
-
+            //almaceno en num la i
             int num= i;
             boolean narcisista = comprobarNarcisista(num);
             if ( narcisista == true) {
@@ -14,6 +15,7 @@ public class Class27MetodosNarcisita {
             }
            
         }
+            //recorro el arraylist para pintarlo
             for(int narci:listaNumeros){
                 System.out.print(narci + ", ");
             }
